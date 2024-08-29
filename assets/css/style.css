@@ -1,0 +1,242 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner {
+    width: 100vw;
+    height: 605px;
+    border: 1px solid #33A8DB;
+    background-image: url('../images/banner.png'), linear-gradient(to right, #000000, #0e3546);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+
+
+.logo {
+    background: #00000060;
+    width: 268px;
+    height: 268px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+}
+
+.banner-content h1 {
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 46px;
+    text-transform: uppercase;
+    font-family: "Inter", sans-serif;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(#33A8DB, #1472B7);
+
+}
+
+.banner-content p {
+    font-size: 20px;
+    text-align: center;
+    line-height: 23.48px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    width: 590px;
+    color: #FFFFFF;
+}
+
+.banner button {
+    width: 326px;
+    height: 57px;
+    border: 2px solid #33A8DB;
+    font-size: 16px;
+    font-weight: 900;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(#3BA1CD, #1572B7);
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    font-family: "Inter", sans-serif;
+    letter-spacing: 3px;
+
+
+}
+
+
+
+main {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #000000;
+}
+
+#course-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 605px;
+}
+
+#course-content h2 {
+    font-size: 2rem;
+    color: #33A8DB;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+
+
+#course-content p {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    max-width: 792px;
+    margin-bottom: 20px;
+}
+
+.modules-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modules-list .module {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 16px;
+    border-radius: 57px;
+    border: 1px solid #33A8DB;
+    background-color: #252525;
+    padding: 16px;
+    margin: 0 auto 24px;
+    width: 530px;
+    text-align: center;
+    line-height: 18.78px;
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+}
+
+.module span {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.78px;
+    color: #33a8db;
+
+
+}
+
+#transform-world {
+    height: 600px;
+    width: 100vw;
+    border: 1px solid #33A8DB;
+    background-image: url("../images/woman-code.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-top: 1px solid #33A8DB80;
+    border-bottom: 1px solid #33A8DB80;
+    padding: 200px;
+}
+
+#transform-world p {
+    color: #FFFFFF;
+    padding-left: 20px;
+    text-transform: lowercase;
+    font-weight: 900;
+    font-size: 40px;
+    font-family: "Inter", sans-serif;
+    line-height: 46.96px;
+    text-shadow: 3px 2px #33A8DB;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    max-width: 260px;
+}
+
+#professional-challenges{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#professional-challenges h2{
+    color: #33A8DB;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-size: 32px;
+    line-height: 37px;
+    max-width: 700px;
+    text-transform: uppercase;
+    margin-top: 62px;
+    padding: 10px;
+
+    
+}
+
+#professional-challenges img{
+       width: 659px;
+       height: 429px;
+}
+
+#professional-challenges p{
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    max-width: 792px;
+    margin: 60px;
+}
+
+footer {
+    height: 170px;
+    width: 100vw;
+    border-top: 1px solid #33A8DB80;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 0;
+    background-image: linear-gradient(#08181f,#020708 );
+}
+
+footer img {
+    width: 310px;
+    height: 44px;
+}
+
+footer p {
+    color: #FFFFFF;
+    width: 300px;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+}
+
+footer a {
+    color: #33A8DB;
+}
